@@ -1,6 +1,6 @@
 /* General styling */
 body {
-  background: #008000;
+  background: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,8 +22,8 @@ body {
   border-image: linear-gradient(90deg, #ff005e, #00cfff, #ff005e) 1;
   border-image-slice: 1;
   cursor: pointer;
-  transition: border-image 0.5s;
-  animation: moveBorder 3s linear infinite;
+  transition: border-image 0.2s;
+  animation: moveBorder 1s linear infinite;
 }
 
 /* Animate border color movement */
