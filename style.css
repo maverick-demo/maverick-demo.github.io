@@ -11,19 +11,21 @@ body {
   justify-content: center;
 }
 
-.blog-card {
-  width: 500px;
-  height: 400px;
+  .blog-card {
+  width: 90%;
+  max-width: 600px;
+  height: 450px;
+  margin: 40px auto;
   background-image: url('https://maverick-ayo.github.io/blog/images/How%20to%20Use%20Pinterest%20to%20Drive%20Massive%20Traffic%20By%20Maverick%20Ayo%20.jpg');
   background-size: cover;
   background-position: center;
   border-radius: 15px;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
   position: relative;
   overflow: hidden;
   color: white;
-}
-
+ 
+  }
 .card-content {
   position: absolute;
   bottom: 0;
