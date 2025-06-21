@@ -1,0 +1,41 @@
+/* General styling */
+body {
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+/* Animated button */
+.border-animate {
+  padding: 15px 30px;
+  font-size: 18px;
+  color: #fff;
+  background: transparent;
+  border: 3px solid;
+  border-image: linear-gradient(90deg, #ff005e, #00cfff, #ff005e) 1;
+  border-image-slice: 1;
+  cursor: pointer;
+  transition: border-image 0.5s;
+  animation: moveBorder 3s linear infinite;
+}
+
+/* Animate border color movement */
+@keyframes moveBorder {
+  0% {
+    border-image-source: linear-gradient(90deg, #ff005e, #00cfff, #ff005e);
+  }
+  50% {
+    border-image-source: linear-gradient(90deg, #00cfff, #ff005e, #00cfff);
+  }
+  100% {
+    border-image-source: linear-gradient(90deg, #ff005e, #00cfff, #ff005e);
+  
+}
+}
