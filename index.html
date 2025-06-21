@@ -2,46 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Moving H1</title>
-  <style>
-    h1 {
-      position: relative;
-      left: 0;
-      transition: left 0.5s ease;
-      color: blue;
-    }
-  </style>
+  <title>Animated Border Button</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body id="gradient">
+<body>
 
-<script>
-const colors = ["#008000", "#ffffff", "#008000", "#ffffff"];
-let i = 0;
-setInterval(() => {
-  document.getElementById("gradient").style.background = colors[i];
-  i = (i + 1) % colors.length;
-}, 1000);
-</script
-  >
+  <div class="container">
+    <button class="border-animate">Click Me</button>
+  </div>
 
-  <h1 id="movingText">Watch Me Move!</h1>
-
-  <!-- Link to the JavaScript file -->
-  <script src="script.js"></script>
-  <h1 id="type-text"></h1>
-
-<script>
-  const text = "Welcome to Maverick Ayo's Blog!";
-  let i = 0;
-  function typeWriter() {
-    if (i < text.length) {
-      document.getElementById("type-text").innerHTML += text.charAt(i);
-      i++;
-      setTimeout(typeWriter, 100); // typing speed
-    }
-  }
-  typeWriter();
-</script>
-<script> src="script.js"></script>
 </body>
 </html>
