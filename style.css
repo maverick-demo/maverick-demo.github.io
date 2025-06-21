@@ -9,8 +9,8 @@ body {
   display: flex;
   justify-content: center;
   background-color: #008000;
-  background-image: url('http://www.transparenttextures.com/patterns/3px-tile.png');
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */  
+  background-image: url(http://www.transparenttextures.com/patterns/gun-metal.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
   .blog-card {
