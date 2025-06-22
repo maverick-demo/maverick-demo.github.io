@@ -70,3 +70,49 @@ body {
   background-color: #009
     9cc;
 }
+/* Header */
+.site-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #a67c52; /* classic brown */
+  color: white;
+  padding: 20px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.site-header .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Nav */
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #f5f1e1;
+}
+
+/* Page sections */
+section {
+  padding: 100px 20px;
+  border-bottom: 1px solid 
+    #ddd;
+  }
