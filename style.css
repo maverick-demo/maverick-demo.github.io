@@ -3,9 +3,9 @@ body, html {
   padding: 0;
   width: 100%;
 }
-header {
+.header {
   background-color: #ffffff
-  header: fixed
+  header-position: fixed
 }
 body {
   font-family: Arial, sans-serif;
